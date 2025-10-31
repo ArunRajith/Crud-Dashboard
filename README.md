@@ -9,6 +9,7 @@ Once a user logs in, they are welcomed personally and shown interactive charts (
 Built with scalability, modularity, and security in mind.
 
 Features
+
 ✅ Secure JWT Authentication (Login / Register / Logout)
 
 ✅ Protected Dashboard with Dynamic User Data
