@@ -28,27 +28,29 @@ Styling	Tailwind CSS
 mern-dashboard/
 │
 ├── backend/
-│   ├── config/            # DB connection setup
-│   ├── controllers/       # Business logic (auth, charts)
-│   ├── middleware/        # Auth protection
-│   ├── models/            # Mongoose models
-│   ├── routes/            # Express routes
-│   └── server.js          # Entry point
+│ ├── config/ # DB connection setup
+│ ├── controllers/ # Business logic (auth, charts)
+│ ├── middleware/ # Auth protection (JWT)
+│ ├── models/ # Mongoose models
+│ ├── routes/ # Express routes
+│ └── server.js # Entry point
 │
 └── frontend/
-    ├── src/
-    │   ├── app/store.js
-    │   ├── api/axios.js
-    │   ├── features/
-    │   │   ├── auth/
-    │   │   └── chart/
-    │   ├── components/
-    │   │   └── ProtectedRoute.jsx
-    │   ├── pages/
-    │   │   ├── Login.jsx
-    │   │   ├── Register.jsx
-    │   │   └── Dashboard.jsx
-    │   └── main.jsx
+├── src/
+│ ├── app/
+│ │ └── store.js # Redux store setup
+│ ├── api/
+│ │ └── axios.js # Axios instance with config
+│ ├── features/
+│ │ ├── auth/ # Auth slice + thunks
+│ │ └── chart/ # Chart slice + thunks
+│ ├── components/
+│ │ └── ProtectedRoute.jsx # Auth route protection
+│ ├── pages/
+│ │ ├── Login.jsx
+│ │ ├── Register.jsx
+│ │ └── Dashboard.jsx
+│ └── main.jsx # App entry point
 
 Installation & Setup
 
