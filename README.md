@@ -55,7 +55,7 @@ mern-dashboard/
 Installation & Setup
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/mern-dashboard.git
+git clone https://github.com/ArunRajith/Crud-Dashboard.git
 cd mern-dashboard
 
 2️⃣ Setup Backend
