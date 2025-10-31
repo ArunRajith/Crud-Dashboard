@@ -8,6 +8,7 @@ Built with scalability, modularity, and security in mind.
 
 Features
 ✅ Secure JWT Authentication (Login / Register / Logout)
+
 ✅ Protected Dashboard with Dynamic User Data
 ✅ Real-Time Chart Updates from MongoDB
 ✅ Fully Responsive UI (Tailwind CSS)
