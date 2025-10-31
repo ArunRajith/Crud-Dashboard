@@ -163,8 +163,6 @@ API Endpoints
 | `GET`    | `/api/auth/profile`     | Get logged-in user data |
 | `GET`    | `/api/chart`            | Fetch chart data        |
 | `POST`   | `/api/chart/create`     | Add a new chart entry   |
-| `PUT`    | `/api/chart/update/:id` | Update chart entry      |
-| `DELETE` | `/api/chart/delete/:id` | Delete chart entry      |
 
 Conclusion
 
